@@ -1,0 +1,16 @@
+var myFullName;
+console.log(myFullName);
+myFullName='Shital Patil';
+console.log(myFullName);
+myFullName='Shital Suresh Patil';
+console.log(myFullName);
+var myLove='I love only JS';
+console.log(myLove);
+var firstName='Shital';
+var lastName='Patil';
+var age=24;
+var address='Pune';
+var pin_code=411042;
+var gender='Female';
+var is_married='married';
+console.log(firstName,lastName,age,address,pin_code,gender,is_married);
