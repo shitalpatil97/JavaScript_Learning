@@ -1,0 +1,11 @@
+var name="Shital";
+var age=24;
+var married=true;
+console.log(typeof name);
+console.log(typeof age);
+console.log(typeof married);
+console.log("I am showing the difference between null and unspecified");
+var val1=null;
+var val2;
+console.log(val1);
+console.log(val2);
