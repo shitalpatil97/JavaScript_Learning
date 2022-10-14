@@ -32,4 +32,6 @@ var res = "Hey you are doing good keep it up";
 var stepSplit =  res.split(" ");
 console.log(stepSplit);
 console.log(stepSplit.length);
+var s=res.reverse();
+console.log(s);
 
