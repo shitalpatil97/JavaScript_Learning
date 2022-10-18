@@ -14,6 +14,7 @@ str=str.toLowerCase();
         
     }
     console.log(vowelCount);
+    
 
     console.log("Count of vowel using function");
 
