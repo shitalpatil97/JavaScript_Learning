@@ -1,5 +1,5 @@
 var arrayExp=[1,2,3,4,5,6,7,8,9];
-console.log(arrayExp);
+console.log(typeof arrayExp);
 var arrlen=arrayExp.length;
 console.log(arrlen);
 var arrayelment=arrayExp[0];

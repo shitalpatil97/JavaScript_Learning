@@ -18,6 +18,10 @@ let objectShital={
         console.log(`The details are:${this.fullName} ${this.address.City} ${this.ismarried}`);
     }
 }
+let res="age" in objectShital;
+console.log(res);
+res="State" in objectShital.address;
+console.log(res);
 objectShital.details();
 console.log("...................................................................................");
 console.log(Object.entries(objectShital));
