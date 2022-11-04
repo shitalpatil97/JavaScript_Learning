@@ -54,4 +54,7 @@ console.table(Teacher);
 console.log("Adding new certificates in nested object certificates: ");
 console.log(Teacher.certificates.certificate_4="All Rounder Teacher");
 console.table(Teacher.certificates);
+console.log(Object.entries(Teacher));
+console.log(Object.keys(Teacher));
+"Certificates".includes()
 

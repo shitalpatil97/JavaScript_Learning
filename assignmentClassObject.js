@@ -46,6 +46,7 @@ function traverseObject(arg1) {
 
     
 }
+
 traverseObject(college1);
 console.log("...................................................................................");
 traverseObject(college2);

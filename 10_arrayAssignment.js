@@ -1,0 +1,10 @@
+var arrayOfNames=['Kamat','Memon','Naspati','Taimur','Menon','Kamat','Andy','Taimur'];
+console.log(`Original array is [${arrayOfNames}]`);
+var set=[...new Set(arrayOfNames)];
+console.log(`After removing duplicate elements updated array is  [${set}]`);
+let arrayLen=arrayOfNames.length;
+//console.log(arrayLen);
+let setLen=set.length;
+//console.log(setLen);
+console.log(`count of duplicate elements removed from arrayOfNames is ${arrayLen-setLen}`);
+console.log(`Total unique elements ${setLen}`);
