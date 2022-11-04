@@ -50,29 +50,29 @@ const employee_info={
 
 }
 console.log("I am log in the employee address details");
-console.table(employee_info.address);
-console.log(`I am log in the employee contact details : ${employee_info.mobiles}`);
+//console.table(employee_info.address);
+//console.log(`I am log in the employee contact details : ${employee_info.mobiles}`);
 
-let object2={...employee_info};
+ let object2={...employee_info};
 
-console.table(employee_info);
-console.table(object2);
+//console.table(employee_info);
+//console.table(object2);
 
-console.log(employee_info.address.locality.street="Khau Galli");
-console.table(employee_info.address);
-console.log(employee_info.mobiles[0]="7004392694");
-console.table(employee_info.mobiles);
-console.log("Original object is : ",employee_info);
-console.log("Cloned object is :", object2);
-console.table(employee_info);
-console.table(object2);
+//console.log(employee_info.address.locality.street="Khau Galli");
+//console.table(employee_info.address);
+//console.log(employee_info.mobiles[0]="7004392694");
+//console.table(employee_info.mobiles);
+// console.log("Original object is : ",employee_info);
+// console.log("Cloned object is :", object2);
+//console.table(employee_info);
+//console.table(object2);
 
 console.log("deep clone using JSON.stringfy()");
 
- object2=JSON.parse(JSON.stringify(employee_info));
+object2=JSON.parse(JSON.stringify(employee_info));
 console.log(employee_info.salary.july_month="80000");
 console.log(employee_info.address.country="United Kingdom");
-console.table(employee_info);
+ console.table(employee_info);
 console.table(object2);
 
 
