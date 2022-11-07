@@ -21,6 +21,7 @@ console.log("----------displaying employee name only-------------------");
 var array1=array.forEach((element)=>{
 console.log(`${element.emp_name}`);
 });
+//console.log(array1);
 
 console.log("----------Get the list of employee departments-------------------");
 var array1=array.forEach((element)=>{
