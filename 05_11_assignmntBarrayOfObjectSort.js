@@ -37,8 +37,8 @@ array1.forEach((value)=>{
 })
 console.log("-----------Sort the array of object in ascending order of Employee_dept----------");
 var array1=array.sort((a,b)=>{
-    let fa=a.emp_dept.toLowerCase();
-    let fb=b.emp_dept.toLowerCase();
+    let fa=a.emp_dept;
+    let fb=b.emp_dept;
     if (fa<fb) {
         return -1
         

@@ -54,23 +54,32 @@ var array1=array.filter((person)=>{
 
 });
 console.log("--------------------Average Salary of the Employee -------------------------");
-var sum=0;
-var array1=array.filter((value)=>{
-    sum=sum+value.emp_salary;
-
+var array4=[];
+array.forEach((value)=>{
+    array4.push(value.emp_salary);
 
 });
-console.log(sum/array.length);
+var array5=array4.reduce((a,b)=>{
+    return a+b;
+});
+console.log(array5/array.length);
 console.log("--------------------Average Salary of the Employee who is working in IT dept-------------------------");
 var array1=array.filter((value)=>{
     return value.emp_dept==='IT';
 
 });
-console.log(array1);
-var array2=array1.forEach((value1)=>{
-    console.log(value1.emp_salary);
-        //return (value1.emp_salary);
+//console.log(array1);
+var array2=[];
+array1.forEach((value1)=>{
+    
+    array2.push(value1.emp_salary);
 
 });
-console.log(array2);
+//console.log(array2);
+
+var array3=array2.reduce((a,b)=>{
+    return a+b;
+
+});
+console.log(array3/array1.length);
 

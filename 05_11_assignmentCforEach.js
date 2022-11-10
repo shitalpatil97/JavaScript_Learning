@@ -42,9 +42,20 @@ array.forEach(element => {
 });
 console.log(sum/array.length);
 console.log("..........IT & HR department employee details whose salary >=75000");
+var array2=[];
+array.filter((element)=>{
+    if (element.emp_dept=='IT' ) {
+        
+    }
+})
 array.forEach(element => {
-    if (element.emp_dept=="IT" && element.emp_dept=="IT"&& element.emp_salary>=75000) {
+    if (element.emp_dept=="IT"&& element.emp_salary>=75000) {
         console.log(`Employee Id: ${element.emp_id} Employee Name: ${element.emp_name} Department :${element.emp_dept}  Salary: ${element.emp_salary}  Company Name : ${element.emp_company}`);
 
     }
+    if (element.emp_dept=="HR"&& element.emp_salary>=75000) {
+        console.log(`Employee Id: ${element.emp_id} Employee Name: ${element.emp_name} Department :${element.emp_dept}  Salary: ${element.emp_salary}  Company Name : ${element.emp_company}`);
+    }
+
+
 });

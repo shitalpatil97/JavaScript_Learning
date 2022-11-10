@@ -5,8 +5,9 @@ str=str.toLowerCase();
     var vowelCount=0;
     var vowels=['a','e','i','o','u'];
     for (let char of str) {
-        if(vowels.includes(char)){
+        if(vowels.includes(char)%2==0){
             vowelCount++;
+            console.log(vowelCount);
 
 
         }

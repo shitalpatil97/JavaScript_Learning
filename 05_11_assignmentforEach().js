@@ -18,10 +18,11 @@ array=[emp_anil,emp_radha,emp_rishi,emp_sonali,emp_monika,emp_viny,emp_mahi];
 
 
 console.log("----------displaying employee name only-------------------");
-var array1=array.forEach((element)=>{
-console.log(`${element.emp_name}`);
+var array1=[];
+array.forEach((element)=>{
+array1.push(element.emp_name)
 });
-//console.log(array1);
+console.log(array1);
 
 console.log("----------Get the list of employee departments-------------------");
 var array1=array.forEach((element)=>{
